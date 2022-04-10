@@ -1,5 +1,6 @@
 PROTEUS SIMULATION
-https://user-images.githubusercontent.com/76009919/162619631-cf4fbc68-178c-4461-b273-968c98dd6dd6.mp4
+
+https://user-images.githubusercontent.com/76009919/162619902-cdc959f9-64b7-4414-bb30-1134690f8ca8.mp4
 
 SUMMARY OF REGISTERS ASSOCIATED WITH PORTA
 ![PORTA](https://user-images.githubusercontent.com/76009919/162619811-666a8548-a701-403e-bd36-0bd73f0702bf.png)
