@@ -1,2 +1,18 @@
-
 #PROTEUS SIMULATION
+https://user-images.githubusercontent.com/76009919/162619631-cf4fbc68-178c-4461-b273-968c98dd6dd6.mp4
+
+SUMMARY OF REGISTERS ASSOCIATED WITH PORTA
+![PORTA](https://user-images.githubusercontent.com/76009919/162619811-666a8548-a701-403e-bd36-0bd73f0702bf.png)
+
+SUMMARY OF REGISTERS ASSOCIATED WITH PORTB
+![PORTB](https://user-images.githubusercontent.com/76009919/162619818-f4e1509d-c627-467c-83b8-9ae80ac325ca.png)
+
+SUMMARY OF REGISTERS ASSOCIATED WITH PORTC
+![PORTC](https://user-images.githubusercontent.com/76009919/162619823-d5677168-ce3b-45fd-a039-e637fa8049f7.png)
+
+SUMMARY OF REGISTERS ASSOCIATED WITH PORTD
+![PORTD](https://user-images.githubusercontent.com/76009919/162619827-62975f85-ce71-46ef-a824-518bc5c34102.png)
+
+SUMMARY OF REGISTERS ASSOCIATED WITH PORTE
+![PORTE](https://user-images.githubusercontent.com/76009919/162619833-d508f111-97b2-45e0-a74e-d83190e2beb2.png)
+
