@@ -1,0 +1,49 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 C:\Users\Timurleng44\Desktop\PIC DERSLERÝ\2)\2.X\configration.c
+[v _init_config_settings init_config_settings `(v  1 e 1 0 ]
+"23
+[v _set_all_ports set_all_ports `(v  1 e 1 0 ]
+"36
+[v _flip_flop_func flip_flop_func `(v  1 e 1 0 ]
+"54
+[v _walking_lights_func walking_lights_func `(v  1 e 1 0 ]
+"54 C:\Users\Timurleng44\Desktop\PIC DERSLERÝ\2)\2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[v _main main `(v  1 e 1 0 ]
+{
+"57
+[v main@c c `VEi  1 a 2 2 ]
+"87
+} 0
+"54 C:\Users\Timurleng44\Desktop\PIC DERSLERÝ\2)\2.X\configration.c
+[v _walking_lights_func walking_lights_func `(v  1 e 1 0 ]
+{
+"120
+} 0
+"23
+[v _set_all_ports set_all_ports `(v  1 e 1 0 ]
+{
+"35
+} 0
+"12
+[v _init_config_settings init_config_settings `(v  1 e 1 0 ]
+{
+"21
+} 0
+"36
+[v _flip_flop_func flip_flop_func `(v  1 e 1 0 ]
+{
+"50
+} 0

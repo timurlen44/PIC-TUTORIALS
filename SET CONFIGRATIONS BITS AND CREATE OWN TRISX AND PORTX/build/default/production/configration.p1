@@ -1,0 +1,659 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"48 ./configration.h
+[; ;./configration.h: 48:     struct _my_TRISAbits{
+[s S95 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S95 _my_TRISAbits TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 ]
+"60
+[; ;./configration.h: 60:     struct _my_PORTAbits{
+[s S96 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S96 _my_PORTAbits PORTA0 PORTA1 PORTA2 PORTA3 PORTA4 PORTA5 ]
+"73
+[; ;./configration.h: 73:     struct _my_TRISBbits{
+[s S97 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S97 _my_TRISBbits TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"87
+[; ;./configration.h: 87:     struct _my_PORTBbits{
+[s S98 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S98 _my_PORTBbits PORTB0 PORTB1 PORTB2 PORTB3 PORTB4 PORTB5 PORTB6 PORTB7 ]
+"101
+[; ;./configration.h: 101:     struct _my_TRISCbits{
+[s S99 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S99 _my_TRISCbits TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"115
+[; ;./configration.h: 115:     struct _my_PORTCbits{
+[s S100 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S100 _my_PORTCbits PORTC0 PORTC1 PORTC2 PORTC3 PORTC4 PORTC5 PORTC6 PORTC7 ]
+"129
+[; ;./configration.h: 129:     struct _my_TRISDbits{
+[s S101 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S101 _my_TRISDbits TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"143
+[; ;./configration.h: 143:     struct _my_PORTDbits{
+[s S102 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S102 _my_PORTDbits PORTD0 PORTD1 PORTD2 PORTD3 PORTD4 PORTD5 PORTD6 PORTD7 ]
+"157
+[; ;./configration.h: 157:     struct _my_TRISEbits{
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 _my_TRISEbits TRISE0 TRISE1 TRISE2 ]
+"167
+[; ;./configration.h: 167:     struct _my_PORTEbits{
+[s S104 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S104 _my_PORTEbits PORTE0 PORTE1 PORTE2 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"55 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 169: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"219
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 219: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"281
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 281: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"343
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 343: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"405
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 405: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"437
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 437: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"457
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 457: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"535
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 535: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"597
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 597: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"637
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 637: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"644
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 644: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"651
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 651: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"658
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 658: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"733
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 733: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"740
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 740: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"811
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 811: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"818
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 818: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"888
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 888: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"895
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 895: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"902
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 902: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"909
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 909: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"967
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 967: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1062
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1062: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1069
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1069: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1076
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1076: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1083
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1083: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1090
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1090: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1097
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1097: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1155
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1155: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1162
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1162: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1258
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1258: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1328
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1328: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1378
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1378: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1440
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1440: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1502
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1502: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1564
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1564: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1621
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1621: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1683
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1683: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1723
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1723: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1757
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1757: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1819
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1819: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1826
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1826: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1833
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 1833: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2002
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2002: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2083
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2083: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2090
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2090: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2160
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2160: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2225
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2225: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2232
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2232: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2291
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2291: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2298
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2298: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2305
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2305: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2312
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2312: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2319
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2319: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2364
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h: 2364: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+[v F879 `*Vuc ~T0 @X0 1 t ]
+"18 ./configration.h
+[; ;./configration.h: 18:     volatile uint8_t *const _my_TRISA = (uint8_t *const)(0x85);
+[v __my_TRISA `C*Vuc ~T0 @X0 1 e ]
+[i __my_TRISA
+-> -> -> 133 `i `*uc `*Vuc
+]
+[v F881 `*Vuc ~T0 @X0 1 t ]
+"19
+[; ;./configration.h: 19:     volatile uint8_t *const _my_PORTA = (uint8_t *const)(0x05);
+[v __my_PORTA `C*Vuc ~T0 @X0 1 e ]
+[i __my_PORTA
+-> -> -> 5 `i `*uc `*Vuc
+]
+[v F883 `*Vuc ~T0 @X0 1 t ]
+"21
+[; ;./configration.h: 21:     volatile uint8_t *const _my_TRISB = (uint8_t *const)(0x86);
+[v __my_TRISB `C*Vuc ~T0 @X0 1 e ]
+[i __my_TRISB
+-> -> -> 134 `i `*uc `*Vuc
+]
+[v F885 `*Vuc ~T0 @X0 1 t ]
+"22
+[; ;./configration.h: 22:     volatile uint8_t *const _my_PORTB = (uint8_t *const)(0x06);
+[v __my_PORTB `C*Vuc ~T0 @X0 1 e ]
+[i __my_PORTB
+-> -> -> 6 `i `*uc `*Vuc
+]
+[v F887 `*Vuc ~T0 @X0 1 t ]
+"24
+[; ;./configration.h: 24:     volatile uint8_t *const _my_TRISC = (uint8_t *const)(0x87);
+[v __my_TRISC `C*Vuc ~T0 @X0 1 e ]
+[i __my_TRISC
+-> -> -> 135 `i `*uc `*Vuc
+]
+[v F889 `*Vuc ~T0 @X0 1 t ]
+"25
+[; ;./configration.h: 25:     volatile uint8_t *const _my_PORTC = (uint8_t *const)(0x07);
+[v __my_PORTC `C*Vuc ~T0 @X0 1 e ]
+[i __my_PORTC
+-> -> -> 7 `i `*uc `*Vuc
+]
+[v F891 `*Vuc ~T0 @X0 1 t ]
+"27
+[; ;./configration.h: 27:     volatile uint8_t *const _my_TRISD = (uint8_t *const)(0x88);
+[v __my_TRISD `C*Vuc ~T0 @X0 1 e ]
+[i __my_TRISD
+-> -> -> 136 `i `*uc `*Vuc
+]
+[v F893 `*Vuc ~T0 @X0 1 t ]
+"28
+[; ;./configration.h: 28:     volatile uint8_t *const _my_PORTD = (uint8_t *const)(0x08);
+[v __my_PORTD `C*Vuc ~T0 @X0 1 e ]
+[i __my_PORTD
+-> -> -> 8 `i `*uc `*Vuc
+]
+[v F895 `*Vuc ~T0 @X0 1 t ]
+"30
+[; ;./configration.h: 30:     volatile uint8_t *const _my_TRISE = (uint8_t *const)(0x89);
+[v __my_TRISE `C*Vuc ~T0 @X0 1 e ]
+[i __my_TRISE
+-> -> -> 137 `i `*uc `*Vuc
+]
+[v F897 `*Vuc ~T0 @X0 1 t ]
+"31
+[; ;./configration.h: 31:     volatile uint8_t *const _my_PORTE = (uint8_t *const)(0x09);
+[v __my_PORTE `C*Vuc ~T0 @X0 1 e ]
+[i __my_PORTE
+-> -> -> 9 `i `*uc `*Vuc
+]
+"58
+[; ;./configration.h: 58:     volatile struct _my_TRISAbits* my_TRISAbits = (struct _my_TRISAbits*)(0x85);
+[v _my_TRISAbits `*VS95 ~T0 @X0 1 e ]
+[i _my_TRISAbits
+-> -> -> 133 `i `*S95 `*VS95
+]
+"70
+[; ;./configration.h: 70:     volatile struct _my_PORTAbits* my_PORTAbits = (struct _my_PORTAbits*)(0x05);
+[v _my_PORTAbits `*VS96 ~T0 @X0 1 e ]
+[i _my_PORTAbits
+-> -> -> 5 `i `*S96 `*VS96
+]
+"85
+[; ;./configration.h: 85:     volatile struct _my_TRISBbits* my_TRISBbits = (struct _my_TRISBbits*)(0x86);
+[v _my_TRISBbits `*VS97 ~T0 @X0 1 e ]
+[i _my_TRISBbits
+-> -> -> 134 `i `*S97 `*VS97
+]
+"99
+[; ;./configration.h: 99:     volatile struct _my_PORTBbits* my_PORTBbits = (struct _my_PORTBbits*)(0x06);
+[v _my_PORTBbits `*VS98 ~T0 @X0 1 e ]
+[i _my_PORTBbits
+-> -> -> 6 `i `*S98 `*VS98
+]
+"113
+[; ;./configration.h: 113:     volatile struct _my_TRISCbits* my_TRISCbits = (struct _my_TRISCbits*)(0x87);
+[v _my_TRISCbits `*VS99 ~T0 @X0 1 e ]
+[i _my_TRISCbits
+-> -> -> 135 `i `*S99 `*VS99
+]
+"127
+[; ;./configration.h: 127:     volatile struct _my_PORTCbits* my_PORTCbits = (struct _my_PORTCbits*)(0x07);
+[v _my_PORTCbits `*VS100 ~T0 @X0 1 e ]
+[i _my_PORTCbits
+-> -> -> 7 `i `*S100 `*VS100
+]
+"141
+[; ;./configration.h: 141:     volatile struct _my_TRISDbits* my_TRISDbits = (struct _my_TRISDbits*)(0x88);
+[v _my_TRISDbits `*VS101 ~T0 @X0 1 e ]
+[i _my_TRISDbits
+-> -> -> 136 `i `*S101 `*VS101
+]
+"155
+[; ;./configration.h: 155:     volatile struct _my_PORTDbits* my_PORTDbits = (struct _my_PORTDbits*)(0x08);
+[v _my_PORTDbits `*VS102 ~T0 @X0 1 e ]
+[i _my_PORTDbits
+-> -> -> 8 `i `*S102 `*VS102
+]
+"164
+[; ;./configration.h: 164:     volatile struct _my_TRISEbits* my_TRISEbits = (struct _my_TRISEbits*)(0x89);
+[v _my_TRISEbits `*VS103 ~T0 @X0 1 e ]
+[i _my_TRISEbits
+-> -> -> 137 `i `*S103 `*VS103
+]
+"174
+[; ;./configration.h: 174:     volatile struct _my_PORTEbits* my_PORTEbits = (struct _my_PORTEbits*)(0x09);
+[v _my_PORTEbits `*VS104 ~T0 @X0 1 e ]
+[i _my_PORTEbits
+-> -> -> 9 `i `*S104 `*VS104
+]
+"12 configration.c
+[; ;configration.c: 12: void init_config_settings(void){
+[; ;configration.c: 12:     *_my_PORTE = 0x00;
+[v _init_config_settings `(v ~T0 @X0 1 ef ]
+{
+[e :U _init_config_settings ]
+[f ]
+"21
+[; ;configration.c: 21:     *_my_PORTA = 0x00;
+[e :UE 105 ]
+}
+"13
+[; ;configration.c: 13: }
+[p x FOSC  =  XT         ]
+"14
+[; ;configration.c: 14: void flip_flop_func(void){
+[p x WDTE  =  OFF        ]
+"15
+[; ;configration.c: 15:     *_my_PORTA = 0xFF;
+[p x PWRTE  =  OFF       ]
+"16
+[; ;configration.c: 16:     *_my_PORTB = 0xFF;
+[p x BOREN  =  OFF       ]
+"17
+[; ;configration.c: 17:     *_my_PORTC = 0xFF;
+[p x LVP  =  OFF         ]
+"18
+[; ;configration.c: 18:     *_my_PORTD = 0xFF;
+[p x CPD  =  OFF         ]
+"19
+[; ;configration.c: 19:     *_my_PORTE = 0xFF;
+[p x WRT  =  OFF         ]
+"20
+[; ;configration.c: 20:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[p x CP  =  OFF          ]
+"23
+[; ;configration.c: 23:     *_my_PORTC = 0x00;
+[v _set_all_ports `(v ~T0 @X0 1 ef ]
+{
+[e :U _set_all_ports ]
+[f ]
+"24
+[; ;configration.c: 24:     *_my_PORTD = 0x00;
+[e = *U __my_TRISA -> -> 0 `i `uc ]
+"25
+[; ;configration.c: 25:     *_my_PORTE = 0x00;
+[e = *U __my_TRISB -> -> 0 `i `uc ]
+"26
+[; ;configration.c: 26:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = *U __my_TRISC -> -> 0 `i `uc ]
+"27
+[; ;configration.c: 27: 
+[e = *U __my_TRISD -> -> 0 `i `uc ]
+"28
+[; ;configration.c: 28: }
+[e = *U __my_TRISE -> -> 0 `i `uc ]
+"30
+[; ;configration.c: 30: 
+[e = *U __my_PORTA -> -> 0 `i `uc ]
+"31
+[; ;configration.c: 31: 
+[e = *U __my_PORTB -> -> 0 `i `uc ]
+"32
+[; ;configration.c: 32: void walking_lights_func(void){
+[e = *U __my_PORTC -> -> 0 `i `uc ]
+"33
+[; ;configration.c: 33:     *_my_PORTD = 0XFF;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"34
+[; ;configration.c: 34:     my_PORTCbits->PORTC7 = 1;
+[e = *U __my_PORTE -> -> 0 `i `uc ]
+"35
+[; ;configration.c: 35:     my_PORTBbits->PORTB0 = 1;
+[e :UE 106 ]
+}
+"36
+[; ;configration.c: 36:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[v _flip_flop_func `(v ~T0 @X0 1 ef ]
+{
+[e :U _flip_flop_func ]
+[f ]
+"37
+[; ;configration.c: 37:     *_my_PORTD = 0X00;
+[e = *U __my_PORTA -> -> 255 `i `uc ]
+"38
+[; ;configration.c: 38:     my_PORTCbits->PORTC6 = 1;
+[e = *U __my_PORTB -> -> 255 `i `uc ]
+"39
+[; ;configration.c: 39:     my_PORTBbits->PORTB1 = 1;
+[e = *U __my_PORTC -> -> 255 `i `uc ]
+"40
+[; ;configration.c: 40:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"41
+[; ;configration.c: 41:     *_my_PORTD = 0XFF;
+[e = *U __my_PORTE -> -> 255 `i `uc ]
+"42
+[; ;configration.c: 42:     my_PORTCbits->PORTC5 = 1;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"43
+[; ;configration.c: 43:     my_PORTBbits->PORTB2 = 1;
+[e = *U __my_PORTA -> -> 0 `i `uc ]
+"44
+[; ;configration.c: 44:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = *U __my_PORTB -> -> 0 `i `uc ]
+"45
+[; ;configration.c: 45:     *_my_PORTD = 0X00;
+[e = *U __my_PORTC -> -> 0 `i `uc ]
+"46
+[; ;configration.c: 46:     my_PORTCbits->PORTC4 = 1;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"47
+[; ;configration.c: 47:     my_PORTBbits->PORTB3 = 1;
+[e = *U __my_PORTE -> -> 0 `i `uc ]
+"48
+[; ;configration.c: 48:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"50
+[; ;configration.c: 50:     my_PORTCbits->PORTC3 = 1;
+[e :UE 107 ]
+}
+"54
+[; ;configration.c: 54:     my_PORTCbits->PORTC2 = 1;
+[v _walking_lights_func `(v ~T0 @X0 1 ef ]
+{
+[e :U _walking_lights_func ]
+[f ]
+"55
+[; ;configration.c: 55:     my_PORTBbits->PORTB5 = 1;
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"56
+[; ;configration.c: 56:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 7 -> -> 1 `i `uc ]
+"57
+[; ;configration.c: 57:     *_my_PORTD = 0XFF;
+[e = . *U _my_PORTBbits 0 -> -> 1 `i `uc ]
+"58
+[; ;configration.c: 58:     my_PORTCbits->PORTC1 = 1;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"59
+[; ;configration.c: 59:     my_PORTBbits->PORTB6 = 1;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"60
+[; ;configration.c: 60:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 6 -> -> 1 `i `uc ]
+"61
+[; ;configration.c: 61:     *_my_PORTD = 0X00;
+[e = . *U _my_PORTBbits 1 -> -> 1 `i `uc ]
+"62
+[; ;configration.c: 62:     my_PORTCbits->PORTC0 = 1;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"63
+[; ;configration.c: 63:     my_PORTBbits->PORTB7 = 1;
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"64
+[; ;configration.c: 64:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 5 -> -> 1 `i `uc ]
+"65
+[; ;configration.c: 65:     *_my_PORTD = 0XFF;
+[e = . *U _my_PORTBbits 2 -> -> 1 `i `uc ]
+"66
+[; ;configration.c: 66:     my_PORTCbits->PORTC0 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"67
+[; ;configration.c: 67:     my_PORTBbits->PORTB7 = 0;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"68
+[; ;configration.c: 68:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 4 -> -> 1 `i `uc ]
+"69
+[; ;configration.c: 69:     *_my_PORTD = 0X00;
+[e = . *U _my_PORTBbits 3 -> -> 1 `i `uc ]
+"70
+[; ;configration.c: 70:     my_PORTCbits->PORTC1 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"71
+[; ;configration.c: 71:     my_PORTBbits->PORTB6 = 0;
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"72
+[; ;configration.c: 72:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 3 -> -> 1 `i `uc ]
+"73
+[; ;configration.c: 73:     *_my_PORTD = 0XFF;
+[e = . *U _my_PORTBbits 4 -> -> 1 `i `uc ]
+"74
+[; ;configration.c: 74:     my_PORTCbits->PORTC2 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"75
+[; ;configration.c: 75:     my_PORTBbits->PORTB5 = 0;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"76
+[; ;configration.c: 76:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 2 -> -> 1 `i `uc ]
+"77
+[; ;configration.c: 77:     *_my_PORTD = 0X00;
+[e = . *U _my_PORTBbits 5 -> -> 1 `i `uc ]
+"78
+[; ;configration.c: 78:     my_PORTCbits->PORTC3 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"79
+[; ;configration.c: 79:     my_PORTBbits->PORTB4 = 0;
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"80
+[; ;configration.c: 80:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 1 -> -> 1 `i `uc ]
+"81
+[; ;configration.c: 81:     *_my_PORTD = 0XFF;
+[e = . *U _my_PORTBbits 6 -> -> 1 `i `uc ]
+"82
+[; ;configration.c: 82:     my_PORTCbits->PORTC4 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"83
+[; ;configration.c: 83:     my_PORTBbits->PORTB3 = 0;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"84
+[; ;configration.c: 84:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 0 -> -> 1 `i `uc ]
+"85
+[; ;configration.c: 85:     *_my_PORTD = 0X00;
+[e = . *U _my_PORTBbits 7 -> -> 1 `i `uc ]
+"86
+[; ;configration.c: 86:     my_PORTCbits->PORTC5 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"87
+[; ;configration.c: 87:     my_PORTBbits->PORTB2 = 0;
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"88
+[; ;configration.c: 88:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 0 -> -> 0 `i `uc ]
+"89
+[; ;configration.c: 89:     *_my_PORTD = 0XFF;
+[e = . *U _my_PORTBbits 7 -> -> 0 `i `uc ]
+"90
+[; ;configration.c: 90:     my_PORTCbits->PORTC6 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"91
+[; ;configration.c: 91:     my_PORTBbits->PORTB1 = 0;
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"92
+[; ;configration.c: 92:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 1 -> -> 0 `i `uc ]
+"93
+[; ;configration.c: 93:     *_my_PORTD = 0X00;
+[e = . *U _my_PORTBbits 6 -> -> 0 `i `uc ]
+"94
+[; ;configration.c: 94:     my_PORTCbits->PORTC7 = 0;
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"95
+[; ;configration.c: 95:     my_PORTBbits->PORTB0 = 0;
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"96
+[; ;configration.c: 96:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e = . *U _my_PORTCbits 2 -> -> 0 `i `uc ]
+"97
+[; ;configration.c: 97:     return;
+[e = . *U _my_PORTBbits 5 -> -> 0 `i `uc ]
+"98
+[; ;configration.c: 98: }
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"99
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"100
+[e = . *U _my_PORTCbits 3 -> -> 0 `i `uc ]
+"101
+[e = . *U _my_PORTBbits 4 -> -> 0 `i `uc ]
+"102
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"103
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"104
+[e = . *U _my_PORTCbits 4 -> -> 0 `i `uc ]
+"105
+[e = . *U _my_PORTBbits 3 -> -> 0 `i `uc ]
+"106
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"107
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"108
+[e = . *U _my_PORTCbits 5 -> -> 0 `i `uc ]
+"109
+[e = . *U _my_PORTBbits 2 -> -> 0 `i `uc ]
+"110
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"111
+[e = *U __my_PORTD -> -> 255 `i `uc ]
+"112
+[e = . *U _my_PORTCbits 6 -> -> 0 `i `uc ]
+"113
+[e = . *U _my_PORTBbits 1 -> -> 0 `i `uc ]
+"114
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"115
+[e = *U __my_PORTD -> -> 0 `i `uc ]
+"116
+[e = . *U _my_PORTCbits 7 -> -> 0 `i `uc ]
+"117
+[e = . *U _my_PORTBbits 0 -> -> 0 `i `uc ]
+"118
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"119
+[e $UE 108  ]
+"120
+[e :UE 108 ]
+}
